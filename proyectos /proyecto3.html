@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Redes y Servicios - Gonzalo Núñez</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header / navegación básica -->
+    <header>
+        <h1>Taller de Administración de Redes y Servicios de Comunicaciones</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#habilidades">Habilidades</a></li>
+                <li><a href="../index.html#proyectos">Proyectos</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido del proyecto -->
+    <section>
+        <h2>Descripción</h2>
+        <p>En este proyecto académico de la asignatura “Taller de Administración de Redes y Servicios de Comunicaciones” realicé el despliegue y administración de una red empresarial simulada, implementando servicios internos y algunos accesibles a internet. La práctica incluyó instalación, configuración, documentación y administración de múltiples servicios en un entorno virtualizado sobre Proxmox.</p>
+    </section>
+
+    <section>
+        <h2>Objetivos</h2>
+        <ul>
+            <li>Desplegar una red empresarial típica con firewall, LAN, DMZ y acceso a internet.</li>
+            <li>Instalar, configurar y administrar servidores y servicios de red.</li>
+            <li>Documentar y probar cada servicio implementado.</li>
+            <li>Aprender de manera autónoma a investigar y aplicar las herramientas necesarias.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Arquitectura y entorno</h2>
+        <ul>
+            <li>Dos servidores físicos con Proxmox formando un cluster.</li>
+            <li>Firewall virtual con Pfsense y tres interfaces para WAN, LAN y DMZ.</li>
+            <li>Switches virtuales con Linux Bridges para LAN y DMZ.</li>
+            <li>Dominio raíz: tectel.cure.edu.uy</li>
+            <li>IP públicas asignadas a los nodos del cluster: pve1 → 164.73.226.194, pve2 → 164.73.226.195</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tareas y servicios implementados</h2>
+        <ul>
+            <li>Instalación y configuración de servidores (LVM, RAID).</li>
+            <li>Firewall con Pfsense.</li>
+            <li>DNS primario y secundario.</li>
+            <li>DHCP y acceso remoto seguro (SSH, Fail2Ban, pasarela).</li>
+            <li>Monitoreo con Zabbix.</li>
+            <li>Gestión de logs centralizada (Logrotate, Logwatch, Rsyslog).</li>
+            <li>Servidor web Apache con certificados y CMS.</li>
+            <li>Automatización con Ansible.</li>
+            <li>Respaldos y políticas de almacenamiento en la nube.</li>
+            <li>Correo electrónico seguro.</li>
+            <li>Aplicaciones Java y bases de datos (Tomcat, MySQL).</li>
+            <li>LDAP con OpenLDAP.</li>
+            <li>VPN con OpenVPN.</li>
+            <li>Opcionales: VoIP, WAF y Proxy.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Metodología de trabajo</h2>
+        <ul>
+            <li>Investigación y diseño previo de cada servicio.</li>
+            <li>Implementación, verificación y corrección de errores.</li>
+            <li>Documentación detallada de cada instalación y configuración.</li>
+            <li>Pruebas funcionales de la red y servicios.</li>
+            <li>Defensa intermedia y final, incluyendo demostraciones y presentación oral.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Resultados y aprendizajes</h2>
+        <ul>
+            <li>Experiencia práctica en despliegue y administración de redes empresariales.</li>
+            <li>Capacidad de integrar múltiples servicios y mantener la seguridad de la red.</li>
+            <li>Documentación profesional de un proyecto complejo de infraestructura de TI.</li>
+            <li>Desarrollo de habilidades en virtualización, automatización, monitoreo y seguridad.</li>
+            <li>Trabajo colaborativo y autogestionado en proyectos de infraestructura de redes.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Gonzalo Nicolás Núñez Olivera | <a href="../contacto.html">Contacto</a></p>
+    </footer>
+</body>
+</html>
