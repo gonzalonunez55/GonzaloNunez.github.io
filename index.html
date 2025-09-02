@@ -3,60 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gonzalo Nicolás Núñez Olivera - Portafolio</title>
+    <title>Portafolio de Gonzalo Núñez</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- Header con imagen -->
     <header>
-        <h1>Gonzalo Nicolás Núñez Olivera</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="perfil-header">
+            <img src="img/GonzaloNunez.jpg" alt="Gonzalo Núñez" class="perfil-img">
+            <h1>Gonzalo Nicolás Núñez Olivera</h1>
+            <p>Tecnólogo en Telecomunicaciones | Especialista en Redes, Servidores y IoT</p>
+        </div>
     </header>
 
-    <!-- Sección de Inicio -->
-    <section id="inicio">
-        <h2>Sobre mí</h2>
-        <p>Soy Técnico en Redes y Telecomunicaciones con experiencia en administración de servidores, redes Wi-Fi, switches y telefonía IP. Me apasiona la tecnología y la resolución de problemas complejos. Busco oportunidades para aplicar mis habilidades en proyectos desafiantes.</p>
-    </section>
-
-    <!-- Sección de Habilidades -->
+    <!-- Sección de habilidades -->
     <section id="habilidades">
         <h2>Habilidades</h2>
         <ul>
-            <li>Administración de servidores Linux (Debian, Ubuntu, Proxmox)</li>
-            <li>Configuración y gestión de redes Wi-Fi y switches</li>
-            <li>Implementación de soluciones de telefonía IP (Asterisk, FreePBX)</li>
-            <li>Automatización de tareas con scripts (Bash, Python)</li>
-            <li>Uso de herramientas de monitoreo y gestión de redes</li>
+            <li>Administración de redes y servidores</li>
+            <li>Configuración de routers TP-Link y OpenWRT</li>
+            <li>Protocolos de ruteo dinámico y estático (OSPF, BGP)</li>
+            <li>Programación en C, Java, Bash</li>
+            <li>Gestión de sistemas IoT y Arduino</li>
+            <li>DNS, DHCP, VPN, Firewalls y seguridad de red</li>
         </ul>
     </section>
 
-    <!-- Sección de Proyectos -->
+    <!-- Sección de proyectos -->
     <section id="proyectos">
         <h2>Proyectos Destacados</h2>
-        <p>A continuación, se presentan algunos de los proyectos en los que he trabajado:</p>
-        <ul>
-            <li><a href="proyectos/proyecto1.html">Pasantía Interinstitucional: Diagnóstico tecnológico de MiPyMEs</a></li>
-            <li><a href="proyectos/proyecto2.html">Taller de Telemática: Desarrollo de sistemas integradores</a></li>
-            <li><a href="proyectos/proyecto3.html">Taller de Administración de Redes y Servicios de Comunicaciones (2025)</a></li>
-            <li><a href="proyectos/proyecto4.html">Taller de Temas Avanzados en Redes de Telecomunicaciones</a></li>
-            <li><a href="proyectos/proyecto5.html">Proyecto IoT con Arduino</a></li>
-
-        </ul>
+        <div class="proyectos-grid">
+            <a href="proyectos/proyecto1.html" class="proyecto-card">
+                <h3>Pasantía Interinstitucional</h3>
+                <p>Diagnóstico tecnológico y análisis de infraestructura de mipymes.</p>
+            </a>
+            <a href="proyectos/proyecto2.html" class="proyecto-card">
+                <h3>Taller de Telemática</h3>
+                <p>Desarrollo de proyectos integrando telecomunicaciones e informática.</p>
+            </a>
+            <a href="proyectos/proyecto3.html" class="proyecto-card">
+                <h3>Taller de Administración de Redes</h3>
+                <p>Despliegue y gestión de redes empresariales con servidores y servicios.</p>
+            </a>
+            <a href="proyectos/proyecto4.html" class="proyecto-card">
+                <h3>Taller Avanzado en Redes</h3>
+                <p>Ruteo dinámico y estático, VLANs, DNS y gestión de firewall.</p>
+            </a>
+            <a href="proyectos/proyecto5.html" class="proyecto-card">
+                <h3>Proyecto IoT con Arduino</h3>
+                <p>Prototipo IoT con Arduino, Nb-IoT / Cat-M1 y comunicación MQTT.</p>
+            </a>
+        </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>© 2025 Gonzalo Nicolás Núñez Olivera | <a href="contacto.html">Contacto</a></p>
     </footer>
 
-    <script src="js/main.js"></script>
 </body>
 </html>
