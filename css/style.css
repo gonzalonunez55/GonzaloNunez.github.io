@@ -138,3 +138,28 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
