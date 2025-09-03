@@ -141,13 +141,13 @@ footer a:hover {
 
 /* Imágenes de proyectos IoT */
 .proyecto-img {
-    display: block;          /* Centra la imagen automáticamente */
-    max-width: 100%;         /* Que no sobresalga del contenedor */
-    height: auto;            /* Mantiene la proporción */
-    border-radius: 12px;     /* Bordes redondeados */
-    margin: 20px auto;       /* Espaciado arriba/abajo y centrado */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra sutil */
-    transition: transform 0.3s, box-shadow 0.3s; /* Efecto al hover */
+    display: block;
+    max-width: 600px;   /* tamaño máximo coherente */
+    width: 100%;        /* se adapta a pantallas pequeñas */
+    height: auto;       /* mantiene proporción */
+    margin: 20px auto;  /* centrado con espacio */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .proyecto-img:hover {
