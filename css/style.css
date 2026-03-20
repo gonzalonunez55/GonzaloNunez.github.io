@@ -258,3 +258,19 @@ footer a:hover {
     background-color: #e85a4f;
     transform: scale(1.05);
 }
+
+/* Corrección de contraste en sección experiencia */
+.experiencia-detalle {
+    background-color: #ffffff;
+    color: #222; /* color base oscuro */
+}
+
+.experiencia-detalle p {
+    color: #333;
+}
+
+.experiencia-detalle h3,
+.experiencia-detalle h4,
+.experiencia-detalle h5 {
+    color: #1a1a2e;
+}
